@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="contactModule">
+  <head>
+    <!-- <base href="/"/> -->
+    <title>Contact Manager</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- css files tags start -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+<!-- css files tags End -->
+
+<!-- js files start -->
+    <script src="app\lib\angular.min.js" type="text/javascript"></script>
+    <script src="app\lib\angular-route.min.js" type="text/javascript"></script>
+    <script src="app\lib\angular-animate.min.js" type="text/javascript"></script>
+    <script src="app\lib\jquery-2.1.1.js"></script>
+    <script src="app\lib\bootstrap.min.js" type="text/javascript"></script>
+    <script src="app/app.js"></script>
+<!-- js files end -->
+
+  </head>
+  <body class="top-navigation">
+    <header ng-include="'header.html'"></header>
+    <main ng-view></main>
+  </body>
+</html>
